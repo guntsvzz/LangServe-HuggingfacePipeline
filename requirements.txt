@@ -1,7 +1,14 @@
-fastapi==0.99.1
+fastapi==0.104.0
 uvicorn
 requests
-pydantic==1.10.12
+pydantic==1.10.13
 langchain
-clarifai
 Pillow
+langchain-huggingface
+langchain-community
+langserve
+langchain-openai
+langchain-core
+python-dotenv
+sse_starlette
+accelerate
