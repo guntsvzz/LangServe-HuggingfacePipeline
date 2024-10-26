@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "FastAPI for HuggingfacePipeline"
+version = "0.1.0"
+description = "Your project description"
+authors = ["guntsvzz@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10.9"
+fastapi = "0.104.0"
+uvicorn = "*"
+requests = "*"
+pydantic = "1.10.13"
+langchain = "*"
+Pillow = "*"
+langchain-huggingface = "*"
+langchain-community = "*"
+langserve = "*"
+langchain-openai = "*"
+langchain-core = "*"
+python-dotenv = "*"
+sse_starlette = "*"
+accelerate = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -35,7 +35,7 @@ add_routes(
     path="/qa_chain",
 )
 
-# Adding chain route
+# Adding llm route
 add_routes(
     app,
     llm,
